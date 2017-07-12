@@ -22,7 +22,7 @@ Producto.prototype.toHTML = function () {
 function mergeHTML (){
   var html = '';
   for (var i=0 ;i<productos.length; i++){
-    html += productos[i].toHTML();//
+    html += producto[i].toHTML();//
   }
   return html;
 }
